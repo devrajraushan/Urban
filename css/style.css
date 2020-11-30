@@ -1,0 +1,177 @@
+*{
+    font-family: 'Scope One', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+header{
+    width: 100%;
+    height: 400px;
+    /*padding: 250px 0px;*/
+    background-image: url("../img/banner.png");
+    background-size: cover;
+}
+.inner{
+    max-width: 900px;
+    margin: 0 auto;
+   /* padding: 5% 5%;*/
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1rem;
+}
+nav a span{
+    color: dodgerblue;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+ul{
+    display: flex;
+    margin-top: 1rem;
+}
+li{
+    list-style: none;
+    margin-left:1rem ;
+}
+.text{
+    text-align: center;
+    margin-top: 5rem;
+}
+.second h2{
+    color: #fff;
+    line-height: 3rem;
+}
+.second p{
+    color: #fff;
+    line-height: 1.5rem;
+}
+.text h1{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.text p{
+    color: #fff;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+button{
+    width: 6.2rem;
+    height: 2.6rem;
+    margin: 1.8rem 0rem;
+    background-color: dodgerblue;
+    color: white; 
+    border: 0;
+    font-size: 1rem;
+    font-family: 'Scope One', serif;
+    border-radius: 0.1rem;
+}
+.btt{
+    background-color: white;
+    color: dodgerblue;
+}
+.blog{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.artical p{
+    margin: 1rem 0rem;
+}
+
+.pic{
+    width: 30%;
+    margin-top: 0.8rem;
+}
+.pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+.artical{
+    width: 60%;
+}
+.banner{
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.Testimonial{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.test-1{
+    width: 30%;
+    text-align: center;
+}
+.test-1 img{
+    width: 90%;
+    border-radius: 50%;
+}
+ footer p{
+     text-align: center;
+ }
+
+ .social{
+     display: flex;
+     width: 30%;
+     margin: 0 auto;
+     margin-top: 2rem;
+    
+ }
+ .social .fa{
+     font-size: 2rem;
+     margin-left: 1rem;
+     border: .5rem double gainsboro;
+     border-radius: 50%;
+     margin-bottom: 1.5rem;
+     color: gray;
+ }  
+
+ @media only screen and (max-width:700px){
+
+    ul{
+        display: none;
+    }
+    
+     .blog{
+         flex-direction: column;
+          
+     }
+     .artical{
+        width: 80%;
+        margin: 0 auto;
+       order: 1;
+    }
+    .pic{
+        width:40% ;
+        margin: 0 auto;
+    }
+    .Testimonial{
+        flex-direction: column;
+    }
+    .test-1{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .social{
+       width: 45%;
+    }
+   
+ }
+
+
